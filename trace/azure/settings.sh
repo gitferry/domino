@@ -1,9 +1,9 @@
 #Remote settings
-username="$USER"
+username="root"
 identity=""
-remote_setup="source $HOME/.profile"
-remote_exec_path="$HOME"
-remote_log_dir="$HOME"
+remote_setup="source /root/.profile"
+remote_exec_path="/root"
+remote_log_dir="/root"
 ##Maps from datancenter IDs to server ips. 
 ##A server's public ip may be different from the one used in the program.
 remote_location_file="remote.config"
